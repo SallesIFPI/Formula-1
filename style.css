@@ -1,0 +1,80 @@
+body {
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: white;
+    background-image: url('imagens/fundo-f1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1%;
+}
+
+header img{
+    width: 100%;
+}
+
+.link-vertical, 
+.topico {
+    padding: 2% 1%;
+}
+
+h4 {
+    border-left: 10px solid gray;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    background-image: url("imagens/bandeira1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.link-vertical a,
+.link-vertical li{
+    text-decoration: none;
+    list-style: none;
+    color: #252525;
+    font-size: 13pt;    
+}
+
+.link-vertical a:hover,
+.links a:hover
+ {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+p {
+    text-indent: 5%;
+    line-height: 1.5;
+    color: #252525;
+    font-size: 12pt;
+}
+
+.equipes img {
+    width: 24px;
+}
+
+.equipes td{
+    border-bottom: 1px dotted #808080;
+    padding: 2% 0;
+    font-size: 12pt;
+}
+
+.pilotos td{
+    border-bottom: 1px dotted #808080;
+    padding: 0 16px;
+}
+
+.links a{
+    color: #252525;
+    text-decoration: none;
+    font-size: 12pt;   
+}
+
